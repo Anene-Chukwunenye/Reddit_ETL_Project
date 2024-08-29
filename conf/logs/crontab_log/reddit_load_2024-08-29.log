@@ -1,0 +1,22 @@
+Starting the load script at Thu Aug 29 11:15:01 WAT 2024
+MySQL Host: 127.0.0.1
+Database: reddit
+Table: main1
+CSV Source Directory: /mnt/c/Reddit_Proj/data
+Secure File Priv Directory: /var/lib/mysql-files/
+Copying CSV files to the secure_file_priv directory...
+Copying file: /mnt/c/Reddit_Proj/data/reddit-comments-2024-08-27.csv
+Successfully copied /mnt/c/Reddit_Proj/data/reddit-comments-2024-08-27.csv to /var/lib/mysql-files/
+Copying file: /mnt/c/Reddit_Proj/data/reddit-comments-2024-08-28.csv
+Successfully copied /mnt/c/Reddit_Proj/data/reddit-comments-2024-08-28.csv to /var/lib/mysql-files/
+Truncating table main1 before loading new data...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Processing file: reddit-comments-2024-08-27.csv
+Running MySQL load data command for reddit-comments-2024-08-27.csv
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Successfully loaded reddit-comments-2024-08-27.csv
+Processing file: reddit-comments-2024-08-28.csv
+Running MySQL load data command for reddit-comments-2024-08-28.csv
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Successfully loaded reddit-comments-2024-08-28.csv
+Load script completed at Thu Aug 29 11:15:03 WAT 2024
