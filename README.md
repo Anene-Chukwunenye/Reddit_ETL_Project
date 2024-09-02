@@ -48,6 +48,7 @@ Download Docker Desktop
 note: if you are using a windows machine, you will have to make use of WSL or a virtual machine (VM)  to be able to use  Dockers. In my case I used WSL, there are many articles online that can be useful in the installation process.
 
 ### Step 1: Clone the Repository
+cd <your-repository-directory>
 
 ### Step 2: Setup Environment Variables
 cd <your-repository-directory>
