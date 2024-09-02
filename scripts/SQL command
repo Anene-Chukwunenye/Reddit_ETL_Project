@@ -1,0 +1,29 @@
+### SQL command to create the table
+
+note first ensure that you create a database called 'reddit'
+
+
+CREATE TABLE reddit.main1 (
+comment_id VARCHAR (255),
+comment_author VARCHAR (255),
+comment_created_time VARCHAR (255),
+commentnum_upvotes VARCHAR (255),
+comment_text TEXT (255),
+submission_id VARCHAR (255),
+submission_author VARCHAR (255),
+submission_title TEXT (255),
+submission_created_time VARCHAR (255),
+submission_name VARCHAR (255),
+submission_num_comments VARCHAR (255),
+submission_num_upvotes VARCHAR (255),
+submission_text TEXT (255),
+submission_url VARCHAR (255),
+subreddit_full_name VARCHAR (255),
+subreddit_display_name VARCHAR (255),
+subreddit_created_utc VARCHAR (255),
+subreddit_subscribers VARCHAR (255),
+subreddit_lang VARCHAR (255),
+subreddit_subreddit_type VARCHAR (255),
+subreddit_over18 VARCHAR (255)
+);
+
