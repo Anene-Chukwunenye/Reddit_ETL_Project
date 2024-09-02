@@ -3,7 +3,7 @@ import pandas as pd
 import csv
 
 # Define the directory containing the CSV files
-csv_directory = '/mnt/c/Reddit_Proj/data'
+csv_directory = './Reddit_Proj/data'
 # Define the expected columns
 expected_columns = [
     'comment_id', 'comment_author', 'comment_created_time', 'commentnum_upvotes', 'comment_text',

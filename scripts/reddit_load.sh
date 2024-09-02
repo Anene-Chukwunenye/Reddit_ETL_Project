@@ -9,7 +9,7 @@ HOST="127.0.0.1"  # Use localhost or 127.0.0.1 for host
 PORT="3307"       # Port mapping from the Docker container to host
 CONTAINER="mysql_reddit"  # Define MySQL container name
 SECURE_FILE_PRIV_DIR="/var/lib/mysql-files/"  # Path inside MySQL container
-CSV_SOURCE_DIR="/mnt/c/Reddit_Proj/data"  # Directory containing the CSV files
+CSV_SOURCE_DIR="./Reddit_Proj/data"  # Directory containing the CSV files
 
 # Log the start time and initial details
 echo "Starting the load script at $(date)"

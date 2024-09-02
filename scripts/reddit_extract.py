@@ -22,7 +22,7 @@ START_DATE = date.today() - timedelta(days = 1)
 END_DATE = date.today()
 
 # get subreddits name from a local txt file
-with open('/mnt/c/Reddit_Proj/scripts/subreddits.txt') as f:
+with open('.Reddit_Proj/scripts/subreddits.txt') as f:
     content = f.read()
     subreddit_names = content.split('\n')
 
@@ -97,6 +97,6 @@ filename = f'reddit-comments-{START_DATE}.csv'
 # save to parquet file in a format 'reddit_comments-YYYY-MM-DD'
 # this saves to csv in the path!!!
 
-full_path = f'/mnt/c/Reddit_Proj/data/{filename}'
+full_path = f'.Reddit_Proj/data/{filename}'
 full_data.to_csv (full_path)
 
