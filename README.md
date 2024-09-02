@@ -87,10 +87,9 @@ Your DAG should automatically trigger based on the schedule you set. However, yo
 
 
 ### NOTE: 
-1. it is very important that you check all the paths that have been set in the scripts! It is as a result of the fact that the directories you will use may be different from the ones used in the scripts.
-2. you will have to change the credentials in the script 'reddit_extract.py'. this link provides a more detailed explanation on how to go about it
+1. you will have to change the credentials in the script 'reddit_extract.py'. this link provides a more detailed explanation on how to go about it
 https://lukianovihor.medium.com/data-ingestion-for-reddit-api-part-1-getting-started-with-a-new-data-source-a9e7fc6daf9c
-3. I used Dbeaver( a free cross-platform database tool) you will have to connect the MySQL database to Dbeaver or any other database application of your choice. it has a user-friendly interface for executive SQL queries, managing database structure and visualizing data
+2. I used Dbeaver( a free cross-platform database tool) you will have to connect the MySQL database to Dbeaver or any other database application of your choice. it has a user-friendly interface for executive SQL queries, managing database structure and visualizing data
 
    
 ### Directory Structure
